@@ -19,6 +19,12 @@ workflows:
           filters: *filters
       - shellcheck/check:
           filters: *filters
+      - orb-tools/publish:
+          orb_name: hari-circle-ns/hariorb
+          vcs_type: << pipeline.project.type >>
+          requires: [orb-tools/lint, orb-tools/review, orb-tools/pack, shellcheck/check]
+          context: orb-publishing
+          filters: *filters
       # Triggers the next workflow in the Orb Development Kit.
       # test
       - orb-tools/continue:
