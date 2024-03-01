@@ -6,4 +6,5 @@ TO=$(circleci env subst "${PARAM_TO}")
 echo "Hello ${TO:-World}!"
 echo "Orb published"
 
-echo 
+echo "test configuration"
+
