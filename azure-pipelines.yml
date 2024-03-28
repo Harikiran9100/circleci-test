@@ -16,4 +16,4 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Test check on the event of commit'
+  displayName: 'Check on the event of commit'
