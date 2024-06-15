@@ -4,7 +4,6 @@
 [![CircleCI Build Status](https://circleci.com/gh/Harikiran9100/circleci-test.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/Harikiran9100/circleci-test) [![CircleCI Orb Version](https://badges.circleci.com/orbs/hari-circle-ns/hariorb.svg)](https://circleci.com/developer/orbs/orb/hari-circle-ns/hariorb) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Harikiran9100/circleci-test/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 
-
 A project template for Orbs.
 
 This repository is designed to be automatically ingested and modified by the CircleCI CLI's `orb init` command.
