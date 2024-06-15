@@ -38,4 +38,3 @@ We welcome [issues](https://github.com/Harikiran9100/circleci-test/issues) to an
 6. Click _"Publish Release"_.
     - This will push a new tag and trigger your publishing pipeline on CircleCI.
 
-
